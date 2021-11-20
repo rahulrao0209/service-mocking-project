@@ -1,0 +1,5 @@
+ This project is based on the following online course material - https://www.edx.org/course/introduction-to-nodejs-2
+ 
+ - Understand how to create a local file server with minimal effort.
+ - Learn how to create a very basic mock service with just Node.js core.
+ - Discover how to rapidly scaffold a fastify service for more involved mock services.

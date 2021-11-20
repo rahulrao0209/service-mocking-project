@@ -1,0 +1,95 @@
+body {
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#category {
+  border: none;
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#category:focus {
+  outline: none;
+}
+
+hr {
+  color: #fff;
+  background: #fff;
+}
+
+details {
+  font-size: 1.5em;
+}
+
+summary {
+  cursor: pointer;
+}
+
+p {
+  text-indent: 1.5rem;
+}
+
+/*Form*/
+#add {
+  margin: 1em auto 0 auto;
+  width: 20rem;
+  display: none;
+}
+
+#add input {
+  margin-bottom: 0.5em;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+#add input:focus {
+  outline: none;
+}
+
+[name="name"],
+[name="rrp"] {
+  width: calc(10rem - 2px);
+}
+[name="info"] {
+  width: 20rem;
+}
+
+#add button {
+  font-weight: bold;
+  width: 5em;
+  float: right;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+#add button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/*Products*/
+#products {
+  width: max-content;
+  margin: 0 auto;
+}
